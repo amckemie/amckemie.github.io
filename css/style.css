@@ -747,7 +747,7 @@
 
 	#intro {
 		background: url('images/overlay.png'), url('../images/fulls/bwskyline.jpg');
-		background-size: 256px 256px, cover;
+		background-size: 50px 50px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
@@ -758,7 +758,7 @@
 /*********************************************************************************/
 
 	#one {
-		background: url('images/overlay.png'), url('../images/fulls/skyline.jpeg');
+		background: url('images/overlay.png'), url('../images/fulls/test_skyline.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -769,7 +769,7 @@
 /*********************************************************************************/
 
 	#two {
-		background: url('images/overlay.png'), url('../images/fulls/skyline3.jpeg');
+		background: url('images/overlay.png'), url('../images/fulls/tower.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
