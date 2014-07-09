@@ -45,7 +45,25 @@
 	}
 
 	#main-pic {
-		border-radius: 100%;
+		border-radius: 5px;
+	}
+
+	.intro-text {
+		color: #e41a37;
+		font-weight: 700;
+	}
+
+	#intro-background {
+		padding-top: 1rem;
+		background-color: #EEEEEE;
+		/*background-color: #292929;*/
+		opacity: 0.7;
+		border-radius: 5px;
+	}
+
+	#about-me {
+		float: left;
+		margin-right: 1rem;
 	}
 
 	h2 {
@@ -733,7 +751,7 @@
 /*********************************************************************************/
 
 	#one {
-		background: url('images/overlay.png'), url('../images/fulls/01.jpg');
+		background: url('images/overlay.png'), url('../images/fulls/skyline.jpeg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -744,7 +762,7 @@
 /*********************************************************************************/
 
 	#two {
-		background: url('images/overlay.png'), url('../images/fulls/vista_background_12-1.jpg');
+		background: url('images/overlay.png'), url('../images/fulls/skyline3.jpeg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
