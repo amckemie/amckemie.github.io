@@ -66,6 +66,13 @@
 		margin-right: 1rem;
 	}
 
+	#disclaimer {
+		float: right;
+		margin-top: 1.5rem;
+		margin-right: 2.5rem;
+		font-size: 75%;
+	}
+
 	h2 {
 		font-size: 2.25em;
 		letter-spacing: -2px;
@@ -92,12 +99,12 @@
 	}
 
 	a.project {
-		color: #05366E;
+		color: #e41a37;
 		text-decoration: none;
 	}
 
 	a.project:hover {
-		color:  #8CA3BA;
+		color:  black;
 	}
 
 	sub {
