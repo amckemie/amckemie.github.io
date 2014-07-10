@@ -9,21 +9,27 @@
 	.container > .container {
 		width: 100% !important;
 	}
-	
+
 	/* Main */
-		
+
 		.main {
 		}
-		
+
 			.main.style2 {
 			}
-			
+
+			.main.style2 h2 {
+				font-size: 150%;
+				line-height: 1em;
+				letter-spacing: -4px;
+			}
+
 				.main.style2 .content {
-					width: 60%;
+					width: 75%;
 				}
-			
+
 					.main.style2.right .content {
-						left: 40%;
+						left: 12.5%;
 					}
 
 				.main.style2.inactive {
@@ -35,11 +41,11 @@
 						.main.style2.inactive.left .content {
 							left: -60%;
 						}
-						
+
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
-	
+
 	#footer {
 		height: auto;
 		line-height: inherit;
@@ -55,7 +61,7 @@
 			line-height: inherit;
 			margin: 0 0 1em 0;
 		}
-		
+
 		#footer .menu {
 			position: relative;
 			right: 0;
