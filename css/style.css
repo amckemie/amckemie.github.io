@@ -94,6 +94,10 @@
 		font-size: 75%;
 	}
 
+	.project-desc {
+		text-align: justify;
+	}
+
 	p.left-align {
 		text-align: justify;
 	}
@@ -222,6 +226,7 @@
 			}
 
 			.gallery-image-big {
+				margin-bottom: 1rem;
 				/*margin-left: rem;*/
 			}
 

@@ -124,7 +124,7 @@
 							</div>
 							<div>
 								<h4><a class="project" href="https://github.com/amckemie/GPTP" target="_blank"><strong> Give A Penny, Take a Penny</strong></a></h4>
-								<p>a web app created by a team of 3 that aims to connect volunteers and non-profit organizations through volunteer opportunities.</p>
+								<p class="project-desc">A web app created by a team of 3 that aims to connect volunteers and non-profit organizations through volunteer opportunities. I constructed the Volunteer/Organization entities, their database methods, the sign in/up commands, the layouts for entity profile and listing pages, and migrated the database to activerecord. </p>
 							</div>
 							<div class="row flush images gallery">
 								<div class="6u gallery-image-l"><a href="images/tol_home.png" class="image full l"><img src="images/tol_home.png" title="Tree of Life: Data Visualization and API" alt="" /></a></div>
@@ -132,11 +132,15 @@
 							</div>
 							<div>
 								<h4><a class="project" href="http://tol.herokuapp.com/" target="_blank"><strong>Tree of Life</strong></a></h4>
-								<p>A web app that provides a dynamic visualization of the tree of life. I coded the backend of the project by converting data from an XML file into a relational database with over 35,000 records. I also utilized Sinatra to create an API that returns a species’ basic data, its immediate children species, and certain Wikipedia information.</p>
+								<p class="project-desc">A web app that provides a dynamic visualization of the tree of life. I coded the backend of the project by parsing 400,000 lines of a JSON tree structure (using several recursive and helper methods) into a relational database with over 35,000 records. I also utilized Sinatra to create an API that returns a species’ basic data, its immediate children species (based on parent ID), and certain Wikipedia information.</p>
 							</div>
 							<div class="row flush images gallery">
-								<div class="12u gallery-image-big"><a href="images/fulls/05.jpg" class="image full l"><img src="images/thumbs/wwtd.png" title="Walking with the Dead" alt="" /></a></div>
+								<div class="12u gallery-image-big"><a href="images/thumbs/wwtd.png" class="image full l"><img src="images/thumbs/wwtd.png" title="Walking with the Dead" alt="" /></a></div>
 								<!-- <div class="6u gallery-image-r"><a href="images/fulls/06.jpg" class="image full r"><img src="images/thumbs/06.jpg" title="Tech: Ruby, RSpec, ActiveRecord, Bcrypt, PostgreSQL, Rake, Highline, Colorize, Asciiart" alt="" /></a></div> -->
+							</div>
+							<div>
+								<h4><a class="project" href="https://github.com/amckemie/Walking-With-The-Dead-Dungeon-Game" target="_blank"><strong>Walking with the Dead: A Single Player, Text-Based Game</strong></a></h4>
+								<p class="project-desc">Walking with the Dead uses a PostgreSQL database with 11 tables to set up the game & constantly store any player's game state. Certain records in join tables are created/deleted as a player interacts with the world, its items & characters in the game. User input is parsed by searching for specific words, sending the player & input to a specific command, checking certain attributes, & returning values based on these arguments. It's currently at nearly 90% test coverage</p>
 							</div>
 						</div>
 
