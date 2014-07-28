@@ -102,6 +102,10 @@
 		text-align: justify;
 	}
 
+	p.project-2 {
+		margin-top: 1rem;
+	}
+
 	h2#byline{
 		line-height: 1.5em;
 	}
@@ -230,6 +234,21 @@
 				/*margin-left: rem;*/
 			}
 
+			.image.hidden img {
+				display: none;
+			}
+
+			/*.image:before .hidden{
+				content: '';
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				background: url('images/overlay.png');
+				display: none;
+			}*/
+
 			.image:before {
 				content: '';
 				position: absolute;
@@ -239,6 +258,7 @@
 				height: 100%;
 				background: url('images/overlay.png');
 			}
+
 
 			.image img {
 				display: block;
@@ -978,7 +998,7 @@
 			text-align: center;
 			cursor: default;
 			z-index: 1;
-			font-size: 0.7em;
+			font-size: 1rem;
 		}
 
 		.poptrox-popup .nav-next,

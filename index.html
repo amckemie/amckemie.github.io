@@ -107,9 +107,6 @@
 					<header>
 						<h2 class="header-text">Recent Work</h2>
 						<p>At MakerSquare I worked on a variety of projects, with a focus on backend and frontend, including building my own versions of Foundation and jQuery, and designing the game of War via a LinkedList. My three main projects, however, are shown below and include: </p>
-						<!--  – a web app created by a team of 3 that aims to connect volunteers and non-profit organizations through volunteer opportunities.  -->
-						<!-- – a web app created by a team of 2 that provides a dynamic visualization of the tree of life. Converted data from an xml file into a relational database through recursion. Utilized Sinatra to create an API that queries the database to get a species’ basic data and its immediate children species. -->
-						<!-- – a dungeon crawler, text-based game that allows users to navigate a graphical node structured world. Users’ can sign in and out without losing their game state. Currently designed to be run in the terminal and bundled as a gem, but later versions will have an interface. -->
 					</header>
 
 					<!--
@@ -119,31 +116,33 @@
 					-->
 						<div class="container small">
 							<div class="row flush images gallery">
-								<div class="6u gallery-image-l"><a href="images/gptp_full.png" class="image full l"><img src="images/gptp_full.png" title="Give a Penny, Take a Penny" alt="" /></a></div>
-								<div class="6u gallery-image-r"><a href="images/gptp_style.png" class="image full r"><img src="images/gptp_style.png" title="Tech: Ruby, Rpec, PostgreSQL, ActiveRecord, Sinatra, JavaScript, Foundation, Sass" alt="" /></a></div>
-							</div>
-							<div>
-								<h4><a class="project" href="https://github.com/amckemie/GPTP" target="_blank"><strong> Give A Penny, Take a Penny</strong></a></h4>
-								<p class="project-desc">A web app created by a team of 3 that aims to connect volunteers and non-profit organizations through volunteer opportunities. I constructed the Volunteer/Organization entities, their database methods, the sign in/up commands, the layouts for entity profile and listing pages, and migrated the database to activerecord. </p>
-							</div>
-							<div class="row flush images gallery">
-								<div class="6u gallery-image-l"><a href="images/tol_home.png" class="image full l"><img src="images/tol_home.png" title="Tree of Life: Data Visualization and API" alt="" /></a></div>
-								<div class="6u gallery-image-r"><a href="images/thumbs/tol_db.png" class="image full r"><img src="images/thumbs/tol_db.png" title="Tech: Ruby, RSpec, ActiveRecord, PostgreSQL, Postman, Infovis, Javascript, Sinatra" alt="" /></a></div>
-							</div>
-							<div>
-								<h4><a class="project" href="http://tol.herokuapp.com/" target="_blank"><strong>Tree of Life</strong></a></h4>
-								<p class="project-desc">A web app that provides a dynamic visualization of the tree of life. I coded the backend of the project by parsing 400,000 lines of a JSON tree structure (using several recursive and helper methods) into a relational database with over 35,000 records. I also utilized Sinatra to create an API that returns a species’ basic data, its immediate children species (based on parent ID), and certain Wikipedia information.</p>
-							</div>
-							<div class="row flush images gallery">
-								<div class="12u gallery-image-big"><a href="images/thumbs/wwtd.png" class="image full l"><img src="images/thumbs/wwtd.png" title="Walking with the Dead" alt="" /></a></div>
-								<!-- <div class="6u gallery-image-r"><a href="images/fulls/06.jpg" class="image full r"><img src="images/thumbs/06.jpg" title="Tech: Ruby, RSpec, ActiveRecord, Bcrypt, PostgreSQL, Rake, Highline, Colorize, Asciiart" alt="" /></a></div> -->
+								<div class="12u gallery-image-big"><a href="images/wwtd-db-methods.png" class="image full l"><img src="images/thumbs/wwtd.png" title="Database Structure" alt="" /></a></div>
+								<!-- <div class="6u gallery-image-r"><a href="images/wwtd-commands.png" class="hidden image full r"><img src="images/thumbs/06.jpg" title="Tech: Ruby, RSpec, ActiveRecord, Bcrypt, PostgreSQL, Rake, Highline, Colorize, Asciiart" alt="" /></a></div> -->
 							</div>
 							<div>
 								<h4><a class="project" href="https://github.com/amckemie/Walking-With-The-Dead-Dungeon-Game" target="_blank"><strong>Walking with the Dead: A Single Player, Text-Based Game</strong></a></h4>
 								<p class="project-desc">Walking with the Dead uses a PostgreSQL database with 11 tables to set up the game & constantly store any player's game state. Certain records in join tables are created/deleted as a player interacts with the world, its items & characters in the game. User input is parsed by searching for specific words, sending the player & input to a specific command, checking certain attributes, & returning values based on these arguments. It's currently at nearly 90% test coverage</p>
+								<p class="project-2"><strong>Tech Stack:</strong> Ruby, PostgreSQL, ActiveRecord, Bcrypt, Colorize, Asciiart</p>
+							</div>
+							<div class="row flush images gallery">
+								<div class="6u gallery-image-l"><a href="images/tol-seed.png" class="image full l"><img src="images/thumbs/tol_home.png" title="Database seed methods and JSON file parsing" alt="" /></a></div>
+								<div class="6u gallery-image-r"><a href="images/tol-wiki.png" class="image full r"><img src="images/thumbs/tol_2.png" title="API method that send species and wikipedia info" alt=""/></a></div>
+							</div>
+							<div>
+								<h4><a class="project" href="http://tol.herokuapp.com/" target="_blank"><strong>Tree of Life</strong></a></h4>
+								<p class="project-desc">A web app that provides a dynamic visualization of the tree of life. I coded the backend of the project by parsing 400,000 lines of a JSON tree structure (using several recursive and helper methods) into a relational database with over 35,000 records. I also utilized Sinatra to create an API that returns a species’ basic data, its immediate children species (based on parent ID), and certain Wikipedia information.</p>
+								<p class="project-2"><strong>Tech Stack:</strong> Ruby, RSpec, ActiveRecord, PostgreSQL, Postman, Infovis, Javascript, Sinatra</p>
+							</div>
+							<div class="row flush images gallery">
+								<div class="6u gallery-image-l"><a href="images/gptp-vol-crud.png" class="image full l"><img src="images/thumbs/gptp_full.png" title="CRUD database methods for volunteers" alt="" /></a></div>
+								<div class="6u gallery-image-r"><a href="images/gptp_style.png" class="image full r"><img src="images/thumbs/gptp_2.png" title="erb design file for listing volunteers" alt="" /></a></div>
+							</div>
+							<div>
+								<h4><a class="project" href="https://github.com/amckemie/GPTP" target="_blank"><strong> Give A Penny, Take a Penny</strong></a></h4>
+								<p class="project-desc">A web app created by a team of 3 that aims to connect volunteers and non-profit organizations through volunteer opportunities. I constructed the Volunteer/Organization entities, their database methods, the sign in/up commands, the layouts for entity profile and listing pages, and migrated the database to ActiveRecord. </p>
+								<p class="project-2"><strong>Tech Stack:</strong> Ruby, Rpec, PostgreSQL, ActiveRecord, Sinatra, JavaScript, Foundation, Sass</p>
 							</div>
 						</div>
-
 				</div>
 			</section>
 
@@ -155,8 +154,8 @@
 						<p> Because I was an English major and editor in my past life, and because the tech scene is so awesomely into sharing their work/findings with the community, I began a blog just prior to starting MakerSquare. Though it has a lot of programming speak in it, I can't promise that there won't be pictures of my dog and other deviations. Here's a snippet of the latest blog...</p>
 					</header>
 					<div class="box container small">
-						<p class="left-align">Senioritis. If only there was enough time at MakerSquare to feel senioritis. Sigh. In my third time of becoming a senior in my life (first highschool, then college, just in case you needed some help there), it feels 100% different. I’m not eagerly counting down the days, hours, minutes, and seconds until I no longer have to be in school and doing this work. Rather, I’m diligently working on a way to slow down time.</p>
-						<a href="http://mckemiecodes.wordpress.com/2014/06/11/becoming-a-senior-again/" class="project" target="_blank"><p class="centered">Read more here...</p></a>
+						<p class="left-align">If you are not familiar with MakerSquare, I’m going to disappoint you from the start… This is not a blog about what MakerSquare is, what I did during my time at MakerSquare, or what I learned. I tried to be apt in naming this blog; it is an ode to the amazing people who made up cohort 6 – my classmates – and the teachers, staff, and community who was involved in making my time at MakerSquare (MKS) so incredibly awesome.</p>
+						<a href="http://mckemiecodes.wordpress.com/2014/07/28/an-ode-to-cohort-6-and-makersquare/" class="project" target="_blank"><p class="centered">Read more here...</p></a>
 						<p>To see the full blog, click <a class="project" href="http://mckemiecodes.wordpress.com/" target="_blank"><strong>here!</strong></a></p>
 					</div>
 				</div>
@@ -164,25 +163,19 @@
 
 		<!-- Footer -->
 			<footer id="footer">
-
-				<!--
-				     Social Icons
-
-				     Use anything from here: http://fortawesome.github.io/Font-Awesome/cheatsheet/)
-				-->
-					<ul class="actions">
-						<li><a href="https://twitter.com/amckemie"><i class="fa fa-twitter-square fa-lg"></i></a></li>
+				<ul class="actions">
+				  <li><a href="https://twitter.com/amckemie"><i class="fa fa-twitter-square fa-lg"></i></a></li>
 			      <li><a href="https://github.com/amckemie"><i class="fa fa-github-square fa-lg"></i></a></li>
 			      <li><a href="https://www.linkedin.com/pub/ashley-mckemie/25/357/a36"><i class="fa fa-linkedin fa-lg"></i></a></li>
-						<li><a href="mailto:ashley.mckemie@gmail.com"><i class="fa fa-envelope"></i></a></li>
-					</ul>
+				  <li><a href="mailto:ashley.mckemie@gmail.com"><i class="fa fa-envelope"></i></a></li>
+				</ul>
 
 				<!-- Menu -->
-					<ul class="menu">
-						<li class="header-text">&copy; Ashley McKemie</li>
-						<li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>
-					</ul>
-					<p id="disclaimer">Background images not mine; Commercially sourced</p>
+				<ul class="menu">
+					<li class="header-text">&copy; Ashley McKemie</li>
+					<li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>
+				</ul>
+				<p id="disclaimer">Background images not mine; Commercially sourced</p>
 
 			</footer>
 
